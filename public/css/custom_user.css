@@ -1,0 +1,418 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-VariableFont_wght.ttf');
+}
+body{
+	/*font-family: 'Raleway' !important;*/
+	font-family: 'Myriad Pro Regular' !important;
+	background-image: url('../images/freepik/4064004.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.page-title{
+	text-align: center;
+	color:white;
+	font-weight: 600;
+}
+.wrapper{
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+.panel{
+	border:none;
+	border-radius: 30px 30px;
+	text-align: center;
+}
+.panel::before{
+	content: "";
+	background-image: url('../images/panelbg.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 0.1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+.no-bg::before{
+	content: "";
+	background-image: none !important;
+}
+.box-title{
+	text-align: center;
+	font-weight: bold !important;
+}
+.logo{
+	max-width: 250px;
+	max-height: auto;
+}
+.box-title::before,
+.box-title::after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid black;
+    width: 4%;
+    margin: 0 1rem;
+    transform: translateY(-0.4rem);
+}
+.page-title{
+  text-shadow: -2px -2px 0 #f04d51, 2px -2px 0 #f04d51, -2px 2px 0 #f04d51, 2px 2px 0 #f04d51;
+}
+.page-title::before,.page-title::after{
+   content: '';
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   margin-left:30px;
+   margin-right: 30px;
+   margin-bottom: 7px;
+   -moz-border-radius: 7.5px;
+   -webkit-border-radius: 7.5px;
+   border-radius: 7.5px;
+   background-color: #f04d51;
+}
+.btn-rounded{
+	border-radius: 10em;
+}
+.tes-button{
+	margin-bottom: 25px;
+	border-radius: 25px 25px;
+}
+.tes-button .card-footer{
+	background-color: white;
+	border:none;
+	padding-top: -5px;
+}
+.tes-icon{
+	max-width: 75px;
+	max-height: auto;
+}
+.tes-link{
+	color:grey;
+	font-weight: 300;
+}
+.form-biodata label{
+	font-weight: bold !important;
+}
+.bold{
+	font-weight: bold;
+}
+.bolder{
+	font-weight: bolder;
+}
+.ingat-button{
+	margin-bottom: 15px;
+	border-radius: 25px 25px;
+	text-align: center;
+	color:white;
+	cursor:pointer;
+}
+.ingat-button span{
+	font-family: 'Arial';
+	font-weight: 900;
+	font-size: 48px;
+}
+.ingat-progress-container{
+	border-radius: 25px 25px;
+}
+.bot-nav-link{
+	color:rgb(30,30,30);
+	transition-duration: 0.5s;
+}
+.bot-nav-link:hover{
+	color: black;
+}
+.hasil-header:nth-child(1){
+	border-radius: 25px 0px 0px 25px;
+	width: 70%;
+}
+.header-nilai{
+	font-family: 'Myriad Pro Bold' !important;
+	font-size: 56px;
+	font-weight: bolder !important;
+}
+.hasil-nilai{
+	font-family: 'Myriad Pro Bold' !important;
+	font-size: 56px;
+	margin-top: 0;
+	margin-bottom: 0; 
+}
+.header-nilai-label{
+	font-weight: bolder !important;
+}
+.hasil-header:nth-child(1){
+	/*-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	z-index:1;*/
+    clip-path: inset(-5px -1px -5px -5px);
+}
+.hasil-header:nth-child(2){
+	border-radius: 0px 25px 25px 0px;
+	width: 30%;
+}
+.hasil-header .progress{
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.hasil-header:nth-child(2){
+	/*-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	z-index: 1;*/
+    clip-path: inset(-5px -5px -5px -1px);
+}
+.hasil-kepribadian-nilai{
+	box-shadow: none;
+	border:7px solid #333;
+	color: none;
+	border-radius: 25px 25px;
+}
+.hasil-line{
+	height:4px;border:none;color:#333;background-color:#333;margin-top: 5px;
+}
+.hasil-predikat{
+	font-family: 'Myriad Pro Bold' !important;
+	font-size: 72px;
+	font-weight: bolder !important;
+}
+.hasil-kepribadian-title{
+	font-family: 'Myriad Pro Bold' !important;
+
+}
+
+.custom-radius{
+	border-radius: 25px 25px;
+}
+
+.logo-tagline{
+    color:white;
+	font-family: 'Myriad Pro Bold' !important;
+	margin-top:-2vh;
+	padding-left:10vh;
+}
+.footer-tagline{
+    color:white;
+    font-family: 'Myriad Pro Bold' !important;
+}
+.logo-stroke{
+    /*-webkit-filter: drop-shadow(1px 1px 0 white)*/
+    /*        drop-shadow(-1px 1px 0 white)*/
+    /*        drop-shadow(1px -1px 0 white)*/
+    /*        drop-shadow(-1px -1px 0 white);*/
+
+    /*filter: drop-shadow(1px 1px 0 white)*/
+    /*        drop-shadow(-1px 1px 0 white)*/
+    /*        drop-shadow(1px -1px 0 white)*/
+    /*        drop-shadow(-1px -1px 0 white);*/
+}
+.text-red{
+    color:red !important;
+}
+.border-none{
+    box-shadow:none !important;
+    -webkit-box-shadow:none !important;
+}
+.list-group-item{
+	background-color:rgba(0,0,0,0) !important;
+}
+@media screen and (max-width: 767px){
+	.wrapper{
+		width: 85%;
+	}
+	.header-nilai{
+		font-size: 40px;
+	}
+	.hasil-nilai{
+		font-size: 40px;
+	}
+	.hasil-tes .col-sm-4{
+		flex: 0 0 33.33%;
+	    max-width: 33.33%;	
+	}
+	.hasil-tes .col-sm-8{
+		flex: 0 0 66.67%;
+	    max-width: 66.67%;	
+	}
+	.hasil-tes .col-sm-3{
+		flex: 0 0 25%;
+	    max-width: 25%;	
+	}
+}
+@media screen and (max-width: 575px){
+	.ingat-soal .col-sm-3{
+		flex: 0 0 25%;
+	    max-width: 25%;
+	}	
+	.ingat-button span{
+		font-size: 20px;
+	}
+	.page-title{
+		font-size: 30px !important;
+	}
+	.header-nilai{
+		font-size: 30px;
+	}
+	.hasil-nilai{
+		font-size: 30px;
+	}
+	.box-title{
+	    font-size:22px;
+	}
+	.footer-tagline{
+	    font-size:20px;
+	}
+	
+	.hasil-tes .col-sm-4{
+		flex: 0 0 100%;
+	    max-width: 100%;
+	    margin-bottom:5vh;
+	}
+	.hasil-tes .col-sm-8{
+		flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.hasil-tes .col-sm-3{
+		flex: 0 0 50%;
+	    max-width: 50%;	
+	    margin-bottom:3vh;
+	}
+	.wrapper{
+		width: 90%;
+	}
+	.list-group-item{
+	    font-size:14px !important;
+	}
+	.p-3{
+	    padding:0.5rem !important;
+	}
+}
+
+@media screen and (max-width: 370px){
+	.ingat-soal .col-sm-3{
+		flex: 0 0 50%;
+	    max-width: 50%;
+	}	
+	.ingat-button span{
+		font-size: 14px;
+	}
+	.page-title{
+		font-size: 20px !important;
+	}
+	.header-nilai{
+		font-size: 20px;
+	}
+	.hasil-nilai{
+		font-size: 20px;
+	}
+	.box-title{
+	    font-size:20px;
+	}
+	.footer-tagline{
+	    font-size:18px;
+	}
+	
+	.hasil-tes .col-sm-4{
+		flex: 0 0 100%;
+	    max-width: 100%;
+	    margin-bottom:5vh;
+	}
+	.hasil-tes .col-sm-8{
+		flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.hasil-tes .col-sm-3{
+		flex: 0 0 50%;
+	    max-width: 50%;	
+	    margin-bottom:3vh;
+	}
+	
+	.wrapper{
+		width: 98%;
+	}
+	
+	.list-group-item{
+	    font-size:14px !important;
+	}
+	.p-3{
+	    padding:0.5rem !important;
+	}
+}
+
+
+/* Sidebar */
+.main-wrapper {
+    display: flex;
+    width: 100%;
+}
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background: white;
+    color: #333;
+    transition: all 0.3s;
+}
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: white;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #333;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #333;
+    background: #6d7fcc;
+}
+#sidebar p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+#sidebar a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+#sidebar ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+#sidebar.active {
+    margin-left: -250px;
+}
+@media screen and (max-width: 767px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}

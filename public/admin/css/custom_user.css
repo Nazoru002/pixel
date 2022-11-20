@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-VariableFont_wght.ttf');
+}
+body{
+	/*font-family: 'Raleway' !important;*/
+	font-family: 'Myriad Pro Regular' !important;
+}
+main:before{
+	content: "";
+	background-image: url('../../images/panelbg.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 0.1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+}
+
+.btn-rounded{
+	border-radius: 10em;
+}
+.dashboard-counter-title{
+	font-family: 'Myriad Pro Bold' !important;
+}
+.logo-stroke{
+	-webkit-filter: drop-shadow(1px 1px 0 #2196f3)
+                drop-shadow(-1px 1px 0 #2196f3)
+                drop-shadow(1px -1px 0 #2196f3)
+                drop-shadow(-1px -1px 0 #2196f3);
+
+filter: drop-shadow(1px 1px 0 #2196f3)
+        drop-shadow(-1px 1px 0 #2196f3)
+        drop-shadow(1px -1px 0 #2196f3)
+        drop-shadow(-1px -1px 0 #2196f3);
+}
+
+
+.hasil-header:nth-child(1){
+	border-radius: 25px 0px 0px 25px;
+	width: 70%;
+}
+.header-nilai{
+	font-family: 'Myriad Pro Bold' !important;
+	font-size: 56px;
+	font-weight: bolder !important;
+}
+.hasil-nilai{
+	font-family: 'Myriad Pro Bold' !important;
+	font-size: 56px;
+	margin-top: 0;
+	margin-bottom: 0; 
+}
+.header-nilai-label{
+	font-weight: bolder !important;
+}
+.hasil-header:nth-child(1){
+	/*-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	z-index:1;*/
+    clip-path: inset(-5px -1px -5px -5px);
+}
+.hasil-header:nth-child(2){
+	border-radius: 0px 25px 25px 0px;
+	width: 30%;
+}
+.hasil-header .progress{
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.hasil-header:nth-child(2){
+	/*-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	z-index: 1;*/
+    clip-path: inset(-5px -5px -5px -1px);
+}
+.hasil-kepribadian-nilai{
+	box-shadow: none;
+	border:7px solid #333;
+	color: none;
+	border-radius: 25px 25px;
+}
+.hasil-line{
+	height:4px;border:none;color:#333;background-color:#333;margin-top: 5px;
+}
+.hasil-predikat{
+	font-family: 'Myriad Pro Bold' !important;
+	font-size: 72px;
+	font-weight: bolder !important;
+}
+.hasil-kepribadian-title{
+	font-family: 'Myriad Pro Bold' !important;
+
+}
+
+.custom-radius{
+	border-radius: 25px 25px;
+}
+.list-group-item{
+    width:100%;
+}
+.list-group-item b{
+    width:24%;
+}
+.list-group-item label{
+    width:74%;
+}
+@media screen and (max-width: 767px){
+	.header-nilai{
+		font-size: 40px;
+	}
+	.hasil-nilai{
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 575px){
+	.ingat-soal .col-sm-3{
+		flex: 0 0 25%;
+	    max-width: 25%;
+	}	
+	.ingat-button span{
+		font-size: 24px;
+	}
+	.hasil-tes .col-sm-3{
+		flex: 0 0 25%;
+	    max-width: 25%;	
+	}
+	.hasil-tes .col-sm-4{
+		flex: 0 0 33.33%;
+	    max-width: 33.33%;	
+	}
+	.hasil-tes .col-sm-8{
+		flex: 0 0 66.67%;
+	    max-width: 66.67%;	
+	}
+	.header-nilai{
+		font-size: 30px;
+	}
+	.hasil-nilai{
+		font-size: 30px;
+	}
+}
